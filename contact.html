@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Swiss Retreat | Contact Page</title>
+        <meta name="author" content="Jessica Binke">
+        <meta name="description" content="Final Project GIT 215 Contact Page">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:wght@600&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.ico">
+        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+        <body>
+            <header>
+                <h1>Swiss Retreat</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Accomadations</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <img src="images/swiss-valley.jpg" alt="Swiss Valley" width="1140" height="560">
+            </header>
+        <main id="conpagemain">
+            <img src="images/swiss-peak.jpg" alt="Swiss Mountain Peak">
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                    Required fields marked with a *</p>
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+
+                <label for="full-name">Full Name (First and Last) <span class="required">*</span></label>
+                    <input type="text" name="full-name" id="full-name" required>
+                <label for="my-email">Email*</label>
+                    <input type="email" name="my-email" id="my-email" required>
+                <label for="my-phone">Phone Number (include area code): <span class="required">*</span></label>
+                    <input type="tel" name="my-phone" id="my-phone" required>
+                <fieldset>
+                    <legend>Preferred Method of Contact: <span class="required">*</span></legend>
+                
+                    <input type="radio" name="contact-pref" id="pref-phone" value="prefer-phone" required checked>
+                        <label for="pref-phone">Phone</label>
+                
+                    <input type="radio" name="contact-pref" id="pref-email" value="prefer-email">
+                        <label for="pref-email">Email</label>
+                </fieldset>
+                
+                <label for="my-comments">Comments: <span class="required">*</span></label>
+                    <textarea name="my-comments" id="my-comments" required></textarea>
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit the Form">
+            </form>
+        </main>
+        <footer>
+             <p>Copyright &copy; 2024 - Swiss Retreat</p>
+             <p>This site is for educational purposes only</p>
+        </footer>
+    </body>
+</html>
